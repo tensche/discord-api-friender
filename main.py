@@ -104,7 +104,7 @@ def Friend(session: requests.Session, token: str, username: str):
 
 cookies = Cookies(session)
 print("Cookies:",cookies)
-token = Login(session, email="test1239127839@tenschi.de", password="TestTenschi123")
+token = Login(session, email="", password="")
 print("Token:",token)
 friend_request = Friend(session, token, username="tenschi187")
 print("Friend Request:",friend_request)
